@@ -1,5 +1,10 @@
 import React from "react";
 
+const html = {
+    __html : '<h1>HELLO REACT</h1>'
+};
+
+/*
 const BlogList = props => {
   return (
     <div>
@@ -12,3 +17,18 @@ Professionally administrate flexible solutions via accurate ideas. Uniquely mone
 };
 
 export default BlogList;
+*/
+
+export default function BloglistName ({article}) {
+    console.log({article})
+    return(
+        <div>
+            <h1>{article.title}</h1>
+            <p>{article.content}</p>
+            <p>Author : {article.author}</p>
+            <p>{article.created_at}</p>
+            <hr/>
+            <div dangerouslySetInnerHTML={html} />
+        </div>
+    )
+}
