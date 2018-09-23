@@ -1,7 +1,8 @@
 import React from "react";
 
 const html = {
-    __html : '<h1>HELLO REACT</h1>'
+    //__html : '<h1>HELLO REACT</h1>'
+    __html : ''
 };
 
 /*
