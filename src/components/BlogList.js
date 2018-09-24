@@ -27,7 +27,7 @@ export default function BloglistName ({article}) {
             <h1>{article.title}</h1>
             <p>{article.content}</p>
             <p>Author : {article.author}</p>
-            <p>Date : {article.created_at}</p>
+            <p>{article.created_at}</p>
             <hr/>
             <div dangerouslySetInnerHTML={html} />
         </div>
