@@ -24,10 +24,9 @@ export default function BloglistName ({article}) {
     console.log({article})
     return(
         <div>
-            <h1>{article.title}</h1>
-            <p>{article.content}</p>
-            <p>Author : {article.author}</p>
-            <p>{article.created_at}</p>
+            <h1>{article.nama}</h1>
+            <p>{article.tempat_lahir}</p>
+            <p>{article.tanggal_lahir}</p>
             <hr/>
             <div dangerouslySetInnerHTML={html} />
         </div>
