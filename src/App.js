@@ -5,9 +5,8 @@ import SearchBox from './components/SearchBox'
 import './App.css';
 import Axios from 'axios';
 
-//const alamaturl = "https://cdn.rawgit.com/kevinhermawan/ca5e0083648ba5ffb2421808d972dd9c/raw/c29c7ee02849b58024fb6a058acae33bde38cbd3/react-blog-example.json";
-
-const alamaturl = "https://minepro.co.id/user/list-ultah";
+const alamaturl = "https://cdn.rawgit.com/kevinhermawan/ca5e0083648ba5ffb2421808d972dd9c/raw/c29c7ee02849b58024fb6a058acae33bde38cbd3/react-blog-example.json";
+//const alamaturl = "http://minepro.co.id/user/list-ultah";
 
 //const articles = require ('./react-blog-example.json');
 
